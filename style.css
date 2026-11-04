@@ -1,0 +1,215 @@
+/*Angeles Olvera*/
+:root {
+  --azul: #5865f2;
+  --gris: #23272a;
+  --negro: #000;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.margen {
+  padding: 15px;
+}
+
+header {
+  background-color: var(--azul);
+}
+
+.contenedor_padre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contenedor-img img {
+  width: 120px;
+  display: block;
+}
+
+.navegacion ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+}
+
+.navegacion a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contenedor-login a {
+  background-color: var(--white);
+  color: var(--negro);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.contenedor-menu {
+  display: none;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.texto-principal,
+.imagen-principal {
+  width: 50%;
+}
+
+.texto-principal h1 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 55px;
+  line-height: 58px;
+  color: var(--white);
+  margin-bottom: 35px;
+}
+
+.texto-principal p {
+  color: var(--white);
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.imagen-principal img {
+  width: 100%;
+  display: block;
+}
+
+.historia {
+  padding-top: 65px;
+  padding-bottom: 30px;
+}
+
+.historia h2,
+.contenido h2 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 38px;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+
+.historia p,
+.contenido p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.imagen,
+.texto {
+  width: 50%;
+}
+
+.imagen img {
+  width: 100%;
+  display: block;
+}
+
+.seccion-video {
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.contenedor-video {
+  width: 55%;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 7px solid #1644d5;
+  border-radius: 20px;
+}
+
+.contenedor-video video {
+  width: 100%;
+  display: block;
+  position: relative;
+  top: 35px;
+  left: 35px;
+  border-radius: 20px;
+}
+
+.texto-video {
+  width: 40%;
+}
+
+.texto-video h2 {
+  font-size: 38px;
+}
+
+.fondo-oscuro {
+  background-color: var(--negro);
+  padding: 40px 15px;
+}
+
+.video-final {
+  background-color: var(--gris);
+  border-radius: 20px;
+  padding: 45px;
+}
+
+.video-final .texto-video {
+  color: var(--white);
+}
+
+.video-final .contenedor-video {
+  border-color: var(--azul);
+}
+
+footer {
+  background-color: var(--gris);
+  padding: 30px 0;
+}
+
+.contenedor-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contenedor-footer img {
+  width: 200px;
+}
+
+.redes {
+  display: flex;
+  gap: 20px;
+  color: var(--white);
+  font-size: 20px;
+}
